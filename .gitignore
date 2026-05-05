@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Data (user-specific)
+*.db
+*.db-wal
+*.db-shm
+
+# Browser state (contains cookies/sessions)
+*_chrome_state/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Downloads
+wos_downloads/
+
+# Debug artifacts
+*.png
+*.html
+test_wos_*.py
