@@ -37,3 +37,6 @@ wos_downloads/
 *.png
 *.html
 test_wos_*.py
+
+# README screenshots (allow docs/images/)
+!docs/images/*.png
